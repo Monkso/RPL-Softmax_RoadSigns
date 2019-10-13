@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rpl"
+version = "0.1"
+description = "Radial Prediction Layers"
+authors = ["Benjamin Voigt <Benjamin.Voigt@htw-berlin.de>", "Christian Herta <Christian.Herta@htw-berlin.de>"]
+license = "MIT"
+repository = "https://gitlab.com/peroyose/radial_prediction_layers"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tqdm = "^4.32"
+numpy = "^1.16"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
